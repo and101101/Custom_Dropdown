@@ -4,7 +4,7 @@ You can implement this on any site or project you work one and the divs make eve
  To add another dropdown:
  
  
-    1. In the '.Qcontainer' div add another '.TxtIn' block (as seen in the html file):
+    1. In the '.Qcontainer' div add another '.TxtIn' block with all the embedded divs (as seen in the html file):
   
     2. In the CustomDropdown.js:
       a. add another item in the buttonsArr[] and contentArr[]
