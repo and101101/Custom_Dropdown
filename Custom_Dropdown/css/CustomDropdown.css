@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding-top: 3vw;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.Qcontainer {
+  margin: auto;
+  width: 70%;
+  background-color: darkblue;
+  display: block;
+  padding: 30px 0 30px 0;
+  border-radius: 10px; }
+  .Qcontainer .TxtIn {
+    width: 70%;
+    margin: 20px auto auto auto;
+    text-align: center; }
+    .Qcontainer .TxtIn a {
+      width: 100%;
+      color: white; }
+
+.dropDown {
+  display: block;
+  grid-template-columns: auto;
+  padding: 10px 0 10px 0;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  margin: auto; }
+  .dropDown .dropDownButton {
+    padding: 20px 0 20px 0;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black; }
+  .dropDown .dropDownButton:hover {
+    background-color: #97BAE9; }
+  .dropDown .dropDownContent {
+    width: 70%;
+    z-index: 1;
+    background-color: white;
+    display: none;
+    flex-wrap: wrap;
+    position: absolute;
+    border-radius: 0 0 5px 5px;
+    margin: auto;
+    left: 15%;
+    color: black; }
+    .dropDown .dropDownContent .optionSelect {
+      width: 50%;
+      padding: 20px 0 20px 0; }
+    .dropDown .dropDownContent .optionSelect:hover {
+      background-color: #97BAE9;
+      border-radius: 5px; }
+  .dropDown ._show02 {
+    display: flex; }
+  .dropDown ._show03 {
+    border-radius: 5px 5px 0 0; }
